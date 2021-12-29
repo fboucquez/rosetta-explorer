@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,300;1,700&family=Space+Mono&family=Roboto+Mono:wght@500&family=Quicksand&display=swap');
+
+:root {
+    --color-blue-shadow: #c6ddff;
+    --color-blue: #f8faff;
+    --color-border: #c6de02;
+    --font-quicksand: 'Quicksand', sans-serif;
+    --font-source-sans: 'Source Sans Pro', sans-serif;
+    --font-space-mono: 'Space Mono', monospace;
+    --hero-bg-color: #eff6ff;
+    --hero-grid-border: 2px;
+    --hero-grid-height: 120px;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: var(--font-quicksand);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+#__next{
+    height: 100%;
+}

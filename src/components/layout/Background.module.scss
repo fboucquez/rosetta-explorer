@@ -1,0 +1,27 @@
+.hero {
+    background-color: var(--hero-bg-color);
+    background-size: var(--hero-grid-height) var(--hero-grid-height);
+    background-image: linear-gradient(to right, white var(--hero-grid-border), transparent var(--hero-grid-border)),
+        linear-gradient(to bottom, white var(--hero-grid-border), transparent var(--hero-grid-border));
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-height: 100%;
+    height: auto
+    //height: 100%;
+}
+
+.container {
+    display: inline-block;
+    font-family: var(--font-quicksand);
+    vertical-align: middle;
+}
+
+.hero > svg {
+    height: calc(var(--hero-grid-height) * 4);
+    position: fixed;
+    right: -90px;
+    top: 0;
+    z-index: -9999;
+    width: auto;
+}

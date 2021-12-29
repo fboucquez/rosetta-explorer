@@ -1,0 +1,47 @@
+{
+    "name": "rosetta-explorer",
+    "description": "Experimental Blockchain explorer that can connect to multiple Rosetta Nodes.",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint -d src/",
+        "lint:fix": "next lint -d src/ --fix",
+        "test": "mocha -r tsconfig-paths/register -r ts-node/register --timeout 900000 --forbid-only \"test/**/*.test.ts\""
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.7.1",
+        "@types/react-redux": "^7.1.21",
+        "bootstrap": "^5.1.3",
+        "bootstrap-icons": "^1.7.2",
+        "lodash": "^4.17.21",
+        "next": "12.0.7",
+        "react": "17.0.2",
+        "react-bootstrap": "^2.0.4",
+        "react-dom": "17.0.2",
+        "react-redux": "^7.2.6",
+        "rosetta-client-typescript": "^1.4.10-rc1-alpha-d4f9fbe",
+        "rundef": "^1.2.6",
+        "sass": "^1.47.0"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.3.0",
+        "@types/lodash": "^4.14.178",
+        "@types/mocha": "^9.1.0",
+        "@types/node": "17.0.5",
+        "@types/react": "17.0.38",
+        "chai": "^4.3.6",
+        "eslint": "8.5.0",
+        "eslint-config-next": "12.0.7",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-header": "^3.1.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-unused-imports": "^2.0.0",
+        "mocha": "^9.2.0",
+        "prettier": "^2.5.1",
+        "prettier-plugin-organize-imports": "^2.3.4",
+        "ts-node": "^10.4.0",
+        "typescript": "4.5.4"
+    }
+}

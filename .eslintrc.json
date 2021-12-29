@@ -1,0 +1,10 @@
+{
+  "extends": ["next", "next/core-web-vitals", "prettier"],
+  "plugins": ["prettier", "header", "unused-imports"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "header/header": [2, "./license-header.js"],
+    "prefer-const": "error",
+    "unused-imports/no-unused-imports-ts": "error"
+  }
+}
