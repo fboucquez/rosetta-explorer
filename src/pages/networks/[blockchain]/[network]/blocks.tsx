@@ -35,7 +35,7 @@ const BlocksPageRoute = ({
     if (!blockchain || !network) {
         return <span />;
     }
-    if (!blocks || !maxBlock || !currentBlock) {
+    if (!blocks) {
         return (
             <NetworkErrorPage
                 network={network.toString()}
