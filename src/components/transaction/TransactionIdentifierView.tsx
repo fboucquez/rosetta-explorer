@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import React from 'react';
 import { NetworkIdentifier, TransactionIdentifier } from 'rosetta-client-typescript';
 
 export type TransactionIdentifierParams = NetworkIdentifier & TransactionIdentifier & { index: number };

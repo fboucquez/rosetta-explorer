@@ -16,7 +16,6 @@
 import { AccountIdentifierParams } from '@components/account/AccountIdentifierView';
 import AmountView from '@components/basic/AmountView';
 import MetadataView from '@components/basic/MetadataView';
-import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { AccountBalanceResponse, AccountCoinsResponse } from 'rosetta-client-typescript';
 

@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import React from 'react';
 
 function fromNow(date: Date, nowDate = new Date(), rft = new Intl.RelativeTimeFormat(undefined, { numeric: 'auto' })): string {
     const SECOND = 1000;

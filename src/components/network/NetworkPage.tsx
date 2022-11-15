@@ -21,7 +21,6 @@ import PeerIdentifierView from '@components/peer/PeerIdentifierView';
 import TransactionCard from '@components/transaction/TransactionCard';
 import { BlockRowInformation } from '@services/BlockUtils';
 import { TransactionRowInformation } from '@services/TransactionUtils';
-import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { NetworkIdentifier, NetworkOptionsResponse, NetworkStatusResponse } from 'rosetta-client-typescript';
 

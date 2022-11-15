@@ -19,7 +19,6 @@ import DateTime from '@components/basic/DateTime';
 import Loading from '@components/basic/Loading';
 import BlockIdentifierView from '@components/block/BlockIdentifierView';
 import { BlockRowInformation } from '@services/BlockUtils';
-import React from 'react';
 import { Col } from 'react-bootstrap';
 import { NetworkIdentifier } from 'rosetta-client-typescript';
 import styles from './BlockCard.module.scss';

@@ -16,7 +16,6 @@
 import Loading from '@components/basic/Loading';
 import MetadataView from '@components/basic/MetadataView';
 import PeerIdentifierView from '@components/peer/PeerIdentifierView';
-import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { NetworkIdentifier, Peer as PeerData } from 'rosetta-client-typescript';
 

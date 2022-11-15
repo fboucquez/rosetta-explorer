@@ -15,7 +15,6 @@
  */
 import Explorer from '@components/layout/Explorer';
 import styles from '@components/network/NetworksPage.module.scss';
-import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { NetworkIdentifier } from 'rosetta-client-typescript';
 export default function NetworkErrorPage(props: NetworkIdentifier & { message: string }) {

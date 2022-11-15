@@ -17,7 +17,7 @@ import Background from '@components/layout/Background';
 import Brand from '@components/layout/Brand';
 import Search from '@components/layout/Search';
 import Link from 'next/link';
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { Col, Container, Navbar, Row } from 'react-bootstrap';
 import { NetworkIdentifier } from 'rosetta-client-typescript';
 import { Copyright } from './Copyright';

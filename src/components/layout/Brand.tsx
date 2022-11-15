@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 import Logo from '@components/layout/Logo';
-import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import styles from './Brand.module.scss';
 export default function Brand() {

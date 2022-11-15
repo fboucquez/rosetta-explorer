@@ -18,7 +18,6 @@ import Loading from '@components/basic/Loading';
 import BlockIdentifierView from '@components/block/BlockIdentifierView';
 import TransactionBodyView from '@components/transaction/TransactionBodyView';
 import TransactionIdentifierView, { TransactionIdentifierParams } from '@components/transaction/TransactionIdentifierView';
-import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { BlockResponse, Transaction } from 'rosetta-client-typescript';
 

@@ -19,7 +19,6 @@ import DateTime from '@components/basic/DateTime';
 import Loading from '@components/basic/Loading';
 import TransactionIdentifierView, { TransactionIdentifierParams } from '@components/transaction/TransactionIdentifierView';
 import { TransactionRowInformation } from '@services/TransactionUtils';
-import React from 'react';
 import { Col } from 'react-bootstrap';
 
 export default function TransactionCard(props: { transaction?: TransactionRowInformation } & TransactionIdentifierParams) {

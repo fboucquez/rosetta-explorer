@@ -20,7 +20,6 @@ import Loading from '@components/basic/Loading';
 import BlockIdentifierView from '@components/block/BlockIdentifierView';
 import TransactionIdentifierView from '@components/transaction/TransactionIdentifierView';
 import { TransactionRowInformation } from '@services/TransactionUtils';
-import React from 'react';
 import { Col, Row, Table } from 'react-bootstrap';
 import { NetworkIdentifier } from 'rosetta-client-typescript';
 

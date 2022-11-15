@@ -18,7 +18,6 @@ import AmountView from '@components/basic/AmountView';
 import Loading from '@components/basic/Loading';
 import MetadataView from '@components/basic/MetadataView';
 import { TransactionIdentifierParams } from '@components/transaction/TransactionIdentifierView';
-import React from 'react';
 import { Transaction } from 'rosetta-client-typescript';
 
 export default function TransactionBodyView(props: { transaction?: Transaction } & TransactionIdentifierParams) {

@@ -16,7 +16,7 @@
 import { rosettaClientFactory } from '@components/basic/GlobalContext';
 import { Utils } from '@services/Utils';
 import { useRouter } from 'next/router';
-import React, { FormEvent, useState } from 'react';
+import { FormEvent, useState } from 'react';
 import { Button, Form, FormControl, InputGroup, Toast, ToastContainer } from 'react-bootstrap';
 import { NetworkIdentifier } from 'rosetta-client-typescript';
 

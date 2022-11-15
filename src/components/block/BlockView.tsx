@@ -17,7 +17,6 @@ import DateTime from '@components/basic/DateTime';
 import Loading from '@components/basic/Loading';
 import MetadataView from '@components/basic/MetadataView';
 import BlockIdentifierView, { BlockIdentifierParams } from '@components/block/BlockIdentifierView';
-import React from 'react';
 import { Block } from 'rosetta-client-typescript';
 
 export default function BlockView(props: { block?: Block } & BlockIdentifierParams) {

@@ -16,7 +16,6 @@
 import Background from '@components/layout/Background';
 import Brand from '@components/layout/Brand';
 import styles from '@components/network/NetworksPage.module.scss';
-import React from 'react';
 import { Container, Navbar, Row } from 'react-bootstrap';
 export default function GenericErrorPage({ message }: { message: string }) {
     return (

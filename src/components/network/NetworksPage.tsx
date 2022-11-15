@@ -16,7 +16,6 @@
 import Background from '@components/layout/Background';
 import { Copyright } from '@components/layout/Copyright';
 import Link from 'next/link';
-import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { NetworkIdentifier } from 'rosetta-client-typescript';
 import styles from './NetworksPage.module.scss';

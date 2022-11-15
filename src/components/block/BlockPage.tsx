@@ -18,7 +18,6 @@ import Loading from '@components/basic/Loading';
 import MetadataView from '@components/basic/MetadataView';
 import BlockIdentifierView, { BlockIdentifierParams } from '@components/block/BlockIdentifierView';
 import TransactionView from '@components/transaction/TransactionView';
-import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { BlockResponse } from 'rosetta-client-typescript';
 export default function BlockPage(props: BlockIdentifierParams & { blockResponse?: BlockResponse }) {
